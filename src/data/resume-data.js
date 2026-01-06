@@ -60,7 +60,7 @@ export const RESUME_DATA = {
       position: "IT Support Analyst",
       startDate: "2013",
       endDate: "2020",
-      summary: "Delivered technical support in a Windows-based enterprise environment for the Oil & Gas sector. Troubleshot networking, printing, and access issues while maintaining critical system documentation and enforcing compliance standards.",
+      summary: "",
       highlights: [
         "Troubleshot and resolved TCP/IP networking issues, printer configurations, and user access permissions across wired and wireless environments.",
         "Standardized knowledge base documentation structure, improving technical article retrieval speed by 40% for support teams.",
