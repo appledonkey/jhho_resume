@@ -4,11 +4,11 @@
 export const RESUME_DATA = {
   basics: {
     name: "James H. H. Oswald",
-    label: "Service Desk Level II & AI/Automation Specialist",
+    label: "IT Support Analyst & AI/Automation Specialist",
     email: "james.oswald89@gmail.com",
     phone: "",
     url: "https://www.linkedin.com/in/james-oswald-16689a263/",
-    summary: "5+ years of hands-on IT support experience in enterprise Windows environments, specializing in Microsoft 365 administration, Active Directory management, and endpoint troubleshooting. Strong diagnostic skills with a proven track record of automating repetitive tasks through PowerShell and Python scripting. Passionate about continuous improvement, system optimization, and delivering exceptional end-user support.",
+    summary: "13+ years of hands-on IT support experience in enterprise Windows environments, specializing in Microsoft 365 administration, Active Directory management, and endpoint troubleshooting. Proven track record of building automation solutions using Power Automate, AI-powered tools, and Python/PowerShell scripting to eliminate manual workflows and improve operational efficiency. Passionate about leveraging emerging AI technologies to transform IT support operations.",
     location: {
       city: "The Woodlands", 
       region: "TX", 
@@ -48,21 +48,21 @@ export const RESUME_DATA = {
   experience: [
     {
       company: "McKesson / US Oncology",
-      position: "IT Support Analyst II",
+      position: "IT Support Analyst",
       startDate: "2020-01",
       endDate: "Present",
-      summary: "Provide Tier 1 & 2 technical support in a large-scale Windows enterprise environment supporting 10,000+ endpoints. Administer user accounts and permissions in Active Directory, manage Microsoft 365 services, and drive automation initiatives using PowerShell and Python scripting.",
+      summary: "",
       highlights: [
-        "Administer user accounts, groups, and permissions in Active Directory; manage Microsoft 365 services including Exchange Online, Teams, SharePoint, and OneDrive for Business.",
         "Developed PowerShell scripts to automate Active Directory account provisioning and group management, reducing manual administration by 25+ hours weekly.",
-        "Built automated ticket routing and incident resolution workflows in ServiceNow, significantly improving Mean Time to Resolution (MTTR) for high-volume support requests.",
+        "Built Power Automate flows integrated with AI Builder to streamline ticket classification and document processing, cutting manual triage time significantly.",
         "Created self-service troubleshooting portal that deflected 400+ Tier 1 tickets monthly (12% reduction in support volume), documenting solutions in knowledge base articles.",
-        "Provide white-glove technical support for C-suite executives, resolving high-priority hardware, software, and connectivity issues across Windows, iOS, and Android platforms."
+        "Implemented automated ticket routing and incident resolution workflows in ServiceNow, improving Mean Time to Resolution (MTTR) for high-volume support requests.",
+        "Manage user accounts, security groups, and permissions across Active Directory and Azure AD for 10,000+ endpoint environment; administer M365 services including Exchange, Teams, and SharePoint."
       ]
     },
     {
       company: "QSI",
-      position: "IT Support Analyst I",
+      position: "IT Support Analyst",
       startDate: "2013",
       endDate: "2020",
       summary: "Delivered technical support in a Windows-based enterprise environment for the Oil & Gas sector. Troubleshot networking, printing, and access issues while maintaining critical system documentation and enforcing compliance standards.",
@@ -75,10 +75,11 @@ export const RESUME_DATA = {
     }
   ],
   skills: [
-    { name: "PowerShell Scripting", category: "Scripting & Automation" },
-    { name: "Python Scripting", category: "Scripting & Automation" },
-    { name: "Microsoft Power Automate", category: "Scripting & Automation" },
-    { name: "ServiceNow Workflows", category: "Scripting & Automation" },
+    { name: "Power Automate / AI Builder", category: "Automation & AI" },
+    { name: "Microsoft Copilot / AI Tools", category: "Automation & AI" },
+    { name: "PowerShell Scripting", category: "Automation & AI" },
+    { name: "Python Scripting", category: "Automation & AI" },
+    { name: "ServiceNow Workflows", category: "Automation & AI" },
 
     { name: "Microsoft 365 Administration", category: "Microsoft Technologies" },
     { name: "Azure Active Directory (Entra ID)", category: "Microsoft Technologies" },
@@ -86,11 +87,10 @@ export const RESUME_DATA = {
     { name: "Intune Endpoint Management", category: "Microsoft Technologies" },
     { name: "Windows 10/11 Enterprise", category: "Microsoft Technologies" },
 
-    { name: "TCP/IP Networking", category: "Infrastructure" },
-    { name: "DNS / DHCP", category: "Infrastructure" },
-    { name: "Active Directory User & Group Management", category: "Infrastructure" },
-    { name: "System Imaging & Deployment", category: "Infrastructure" },
-    { name: "Endpoint Troubleshooting (Windows, iOS, Android)", category: "Infrastructure" }
+    { name: "Active Directory Management", category: "Infrastructure" },
+    { name: "TCP/IP / DNS / DHCP", category: "Infrastructure" },
+    { name: "Endpoint Troubleshooting (Windows, iOS, Android)", category: "Infrastructure" },
+    { name: "System Imaging & Deployment", category: "Infrastructure" }
   ],
   projects: [
     {
