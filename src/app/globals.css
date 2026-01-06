@@ -22,5 +22,32 @@ body {
 }
 
 @page {
-  margin: 0.75in;
+  margin: 0.5in 0.6in;
+  size: letter;
+}
+
+@media print {
+  html, body {
+    font-size: 11px;
+    line-height: 1.4;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  section {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  h2, h3 {
+    break-after: avoid;
+    page-break-after: avoid;
+    orphans: 3;
+    widows: 3;
+  }
+
+  ul, ol {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
 }
