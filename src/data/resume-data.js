@@ -4,7 +4,7 @@
 export const RESUME_DATA = {
   basics: {
     name: "James H. H. Oswald",
-    label: "IT Support Analyst | Windows & Microsoft 365 Specialist",
+    label: "Service Desk Level II & AI/Automation Specialist",
     email: "james.oswald89@gmail.com",
     phone: "",
     url: "https://www.linkedin.com/in/james-oswald-16689a263/",
@@ -32,20 +32,10 @@ export const RESUME_DATA = {
     {
       name: "Microsoft Certified: Azure Fundamentals (AZ-900)",
       issuer: "Microsoft",
-      date: "In Progress"
-    },
-    {
-      name: "ITIL 4 Foundation",
-      issuer: "Axelos",
-      date: "In Progress"
+      date: "Completed"
     },
     {
       name: "Microsoft Certified: Power Platform Developer Associate (PL-400)",
-      issuer: "Microsoft",
-      date: "In Progress"
-    },
-    {
-      name: "Microsoft Certified: Power Automate RPA Developer Associate (PL-500)",
       issuer: "Microsoft",
       date: "In Progress"
     },
