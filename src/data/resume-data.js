@@ -57,7 +57,7 @@ export const RESUME_DATA = {
         "Built Power Automate flows integrated with AI Builder to streamline ticket classification and document processing, cutting manual triage time significantly.",
         "Created self-service troubleshooting portal that deflected 400+ Tier 1 tickets monthly (12% reduction in support volume), documenting solutions in knowledge base articles.",
         "Implemented automated ticket routing and incident resolution workflows in ServiceNow, improving Mean Time to Resolution (MTTR) for high-volume support requests.",
-        "Manage user accounts, security groups, and permissions across Active Directory and Azure AD for 10,000+ endpoint environment; administer M365 services including Exchange, Teams, and SharePoint."
+        "Manage user accounts, security groups, and permissions in Active Directory and Azure AD; administer M365 services including Exchange, Teams, and SharePoint."
       ]
     },
     {
