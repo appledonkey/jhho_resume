@@ -4,17 +4,16 @@
 export const RESUME_DATA = {
   basics: {
     name: "James H. H. Oswald",
-    label: "Service Desk Level II & AI/Automation Specialist", 
+    label: "IT Support Analyst | Windows & Microsoft 365 Specialist",
     email: "james.oswald89@gmail.com",
-    phone: "", 
-    url: "https://www.boot.dev/u/wizardofozwald239",
-    summary: "Focused on modernizing Tier 2 operations through AI-driven knowledge systems and workflow automation. I bridge the gap between support and engineering by building tools that eliminate manual toil, utilizing Python, the Power Platform, and ServiceNow API integrations. My background ensures practical solutions for real-world operational tasks, including automated Active Directory management.",
+    phone: "",
+    url: "https://www.linkedin.com/in/james-oswald-16689a263/",
+    summary: "5+ years of hands-on IT support experience in enterprise Windows environments, specializing in Microsoft 365 administration, Active Directory management, and endpoint troubleshooting. Strong diagnostic skills with a proven track record of automating repetitive tasks through PowerShell and Python scripting. Passionate about continuous improvement, system optimization, and delivering exceptional end-user support.",
     location: {
       city: "The Woodlands", 
       region: "TX", 
     },
     profiles: [
-      { network: "Boot.dev", url: "https://www.boot.dev/u/wizardofozwald239", username: "wizardofozwald239" },
       { network: "LinkedIn", url: "https://www.linkedin.com/in/james-oswald-16689a263/", username: "James Oswald" }
     ]
   },
@@ -31,16 +30,6 @@ export const RESUME_DATA = {
   ],
   certifications: [
     {
-      name: "Microsoft Certified: Power Automate RPA Developer Associate (PL-500)",
-      issuer: "Microsoft",
-      date: "In Progress"
-    },
-    {
-      name: "Microsoft Certified: Power Platform Developer Associate (PL-400)",
-      issuer: "Microsoft",
-      date: "In Progress"
-    },
-    {
       name: "Microsoft Certified: Azure Fundamentals (AZ-900)",
       issuer: "Microsoft",
       date: "In Progress"
@@ -51,9 +40,14 @@ export const RESUME_DATA = {
       date: "In Progress"
     },
     {
-      name: "Google Cloud Skills Boost: Cloud Healthcare API",
-      issuer: "Google",
-      date: "Completed"
+      name: "Microsoft Certified: Power Platform Developer Associate (PL-400)",
+      issuer: "Microsoft",
+      date: "In Progress"
+    },
+    {
+      name: "Microsoft Certified: Power Automate RPA Developer Associate (PL-500)",
+      issuer: "Microsoft",
+      date: "In Progress"
     },
     {
       name: "Postman Student Expert (API Automation)",
@@ -64,64 +58,68 @@ export const RESUME_DATA = {
   experience: [
     {
       company: "McKesson / US Oncology",
-      position: "Service Desk Representative II", 
-      startDate: "2020-01", 
+      position: "IT Support Analyst II",
+      startDate: "2020-01",
       endDate: "Present",
-      summary: "Automation Lead & Service Desk Analyst Acting as the automation lead for the team, I focus on replacing manual operational workflows with scalable code. I specialize in integrating AI into knowledge management systems and using Python and PowerShell to automate core infrastructure tasks, including ServiceNow routing and Active Directory management.",
+      summary: "Provide Tier 1 & 2 technical support in a large-scale Windows enterprise environment supporting 10,000+ endpoints. Administer user accounts and permissions in Active Directory, manage Microsoft 365 services, and drive automation initiatives using PowerShell and Python scripting.",
       highlights: [
-        "Engineered a flowchart-driven Self-Service Training Portal, diverting 400+ Tier 1 tickets monthly (a 12% reduction in total support volume).",
-        "Implemented intelligent ticket routing and auto-resolution workflows within ServiceNow, eliminating manual triage for high-volume incidents and significantly improving Mean Time to Resolution (MTTR).",
-        "Leveraged Python and the Power Platform to interact with the ServiceNow API, eliminating approximately 25 hours of manual data entry every week.",
-        "Provided concierge-level technical support for C-suite executives and clinical staff, ensuring rapid resolution of high-priority technical roadblocks."
+        "Administer user accounts, groups, and permissions in Active Directory; manage Microsoft 365 services including Exchange Online, Teams, SharePoint, and OneDrive for Business.",
+        "Developed PowerShell scripts to automate Active Directory account provisioning and group management, reducing manual administration by 25+ hours weekly.",
+        "Built automated ticket routing and incident resolution workflows in ServiceNow, significantly improving Mean Time to Resolution (MTTR) for high-volume support requests.",
+        "Created self-service troubleshooting portal that deflected 400+ Tier 1 tickets monthly (12% reduction in support volume), documenting solutions in knowledge base articles.",
+        "Provide white-glove technical support for C-suite executives, resolving high-priority hardware, software, and connectivity issues across Windows, iOS, and Android platforms."
       ]
     },
     {
       company: "QSI",
-      position: "Service Desk Representative I",
+      position: "IT Support Analyst I",
       startDate: "2013",
       endDate: "2020",
-      summary: "Delivered specialized technical support for Quality Management Systems (QMS) in the Oil & Gas sector. Focused on maintaining data integrity, enforcing regulatory compliance, and optimizing documentation workflows for field operations.",
+      summary: "Delivered technical support in a Windows-based enterprise environment for the Oil & Gas sector. Troubleshot networking, printing, and access issues while maintaining critical system documentation and enforcing compliance standards.",
       highlights: [
-        "Standardized the internal Knowledge Base structure, improving document retrieval speed by 40% for field engineers.",
-        "Enforced rigorous quality control on documentation workflows, effectively reducing regulatory non-compliance risks by 25%.",
-        "Maintained 99.9% uptime for critical compliance databases during peak audit seasons through proactive monitoring and rapid incident resolution."
+        "Troubleshot and resolved TCP/IP networking issues, printer configurations, and user access permissions across wired and wireless environments.",
+        "Standardized knowledge base documentation structure, improving technical article retrieval speed by 40% for support teams.",
+        "Maintained 99.9% uptime for critical business systems through proactive monitoring, patch management, and rapid incident resolution.",
+        "Enforced security controls and access management policies, reducing compliance audit findings by 25%."
       ]
     }
   ],
   skills: [
-    { name: "Python", category: "Languages & Scripting" },
-    { name: "PowerShell", category: "Languages & Scripting" },
-    { name: "SQL", category: "Languages & Scripting" },
-    { name: "JavaScript (TypeScript)", category: "Languages & Scripting" },
-    
-    { name: "Microsoft Power Platform (Power Automate, Power Apps)", category: "Automation & Platforms" },
-    { name: "ServiceNow (API Integration & Workflows)", category: "Automation & Platforms" },
-    { name: "Copilot Studio", category: "Automation & Platforms" },
-    
-    { name: "React", category: "Web & Tools" },
-    { name: "Next.js", category: "Web & Tools" },
-    { name: "Git/GitHub", category: "Web & Tools" },
-    { name: "VS Code", category: "Web & Tools" },
-    { name: "AI-Augmented Development", category: "Web & Tools" }
+    { name: "PowerShell Scripting", category: "Scripting & Automation" },
+    { name: "Python Scripting", category: "Scripting & Automation" },
+    { name: "Microsoft Power Automate", category: "Scripting & Automation" },
+    { name: "ServiceNow Workflows", category: "Scripting & Automation" },
+
+    { name: "Microsoft 365 Administration", category: "Microsoft Technologies" },
+    { name: "Azure Active Directory (Entra ID)", category: "Microsoft Technologies" },
+    { name: "Exchange Online / Teams / SharePoint", category: "Microsoft Technologies" },
+    { name: "Intune Endpoint Management", category: "Microsoft Technologies" },
+    { name: "Windows 10/11 Enterprise", category: "Microsoft Technologies" },
+
+    { name: "TCP/IP Networking", category: "Infrastructure" },
+    { name: "DNS / DHCP", category: "Infrastructure" },
+    { name: "Active Directory User & Group Management", category: "Infrastructure" },
+    { name: "System Imaging & Deployment", category: "Infrastructure" },
+    { name: "Endpoint Troubleshooting (Windows, iOS, Android)", category: "Infrastructure" }
   ],
   projects: [
     {
-      name: "Self-Service Training Portal",
-      description: "Developed a logic-based web application that digitizes troubleshooting flowcharts. Engineered a decision-tree architecture that guides users through self-resolution steps, effectively automating Tier 1 support logic.",
-      tags: ["React", "Process Automation"],
+      name: "Office Management Software",
+      description: "Developed internal tooling to streamline office operations and administrative workflows. Built with a focus on improving efficiency for day-to-day business processes and reducing manual overhead.",
+      tags: ["Python", "Automation", "Business Operations"],
       url: "#"
     },
     {
-      name: "Automated KBA System",
-      description: "Architected a centralized knowledge management tool using Python to automate content curation. Designed the system to parse, organize, and retrieve technical documentation, ensuring data consistency and rapid access for support teams.",
-      tags: ["Python", "AI Integration"],
+      name: "Knowledge Base Article System",
+      description: "Architected a centralized knowledge management system to automate documentation curation and retrieval. Standardized article formatting and implemented search optimization for rapid technical reference by support teams.",
+      tags: ["Python", "Documentation", "IT Operations"],
       url: "#"
     },
     {
-      name: "Computer Science & Backend Portfolio",
-      description: "Completed an advanced technical curriculum focused on Backend Architecture, Data Structures, and Algorithms. Built multiple projects using Go and Python to solve complex computational problems and implement distributed systems concepts.",
-      tags: ["Go", "Python", "Data Structures", "Algorithms"],
-      url: "https://www.boot.dev/u/wizardofozwald239"
+      name: "Self-Service Portal & Training Prototype",
+      description: "Built a flowchart-driven troubleshooting portal with guided decision trees for common IT issues. Enables user self-resolution and serves as an interactive training tool for new support staff.",
+      tags: ["Process Automation", "Knowledge Management", "Training"],
+      url: "#"
     }
   ]
 };
