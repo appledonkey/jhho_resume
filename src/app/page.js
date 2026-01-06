@@ -110,18 +110,11 @@ export default function Page() {
                      <Mail className="w-4 h-4" />
                      Contact Me
                    </button>
-                   <button 
+                   <button
                      onClick={() => window.open(resumeData.basics.profiles[0].url)}
                      className="px-6 py-2.5 bg-gray-200 dark:bg-gray-800 text-gray-900 dark:text-white rounded-lg font-medium hover:bg-gray-300 dark:hover:bg-gray-700 transition-colors flex items-center gap-2"
                    >
                      <Favicon url={resumeData.basics.profiles[0].url} />
-                     Boot.dev
-                   </button>
-                    <button 
-                     onClick={() => window.open(resumeData.basics.profiles[1].url)}
-                     className="px-6 py-2.5 bg-gray-200 dark:bg-gray-800 text-gray-900 dark:text-white rounded-lg font-medium hover:bg-gray-300 dark:hover:bg-gray-700 transition-colors flex items-center gap-2"
-                   >
-                     <Favicon url={resumeData.basics.profiles[1].url} />
                      LinkedIn
                    </button>
                    <button 

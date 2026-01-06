@@ -1,6 +1,6 @@
 import React from 'react';
 import { useResumeData } from '../context/ResumeDataProvider';
-import { Mail, Phone, Linkedin, Globe } from 'lucide-react';
+import { Mail, Phone, Linkedin } from 'lucide-react';
 
 const PrintView = () => {
   const resumeData = useResumeData();
@@ -9,7 +9,6 @@ const PrintView = () => {
   const contactInfo = [
     { icon: <Mail size={14} />, text: basics.email, href: `mailto:${basics.email}` },
     { icon: <Linkedin size={14} />, text: 'LinkedIn', href: basics.profiles.find(p => p.network.toLowerCase() === 'linkedin')?.url },
-    { icon: <Globe size={14} />, text: 'Portfolio', href: basics.profiles.find(p => p.network.toLowerCase() === 'boot.dev')?.url },
   ].filter(item => item.href);
 
   return (

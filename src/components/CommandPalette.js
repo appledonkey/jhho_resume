@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useRef, useState } from 'react';
-import { Command, FileJson, Layout, Download, Mail, Code, Linkedin } from 'lucide-react';
+import { Command, FileJson, Layout, Download, Mail, Linkedin } from 'lucide-react';
 import { useResumeData } from '../context/ResumeDataProvider';
 
 const CommandPalette = ({ isOpen, onClose, setView }) => {
@@ -23,8 +23,7 @@ const CommandPalette = ({ isOpen, onClose, setView }) => {
     { label: "View: JSON Data", action: () => setView('json'), icon: FileJson },
     { label: "Action: Print / PDF", action: () => window.print(), icon: Download },
     { label: "Contact: Email", action: () => window.open(`mailto:${resumeData.basics.email}`), icon: Mail },
-    { label: "Go: Boot.dev", action: () => window.open(resumeData.basics.profiles[0].url), icon: Code },
-    { label: "Go: LinkedIn", action: () => window.open(resumeData.basics.profiles[1].url), icon: Linkedin },
+    { label: "Go: LinkedIn", action: () => window.open(resumeData.basics.profiles[0].url), icon: Linkedin },
   ];
 
   const filteredOptions = query
