@@ -4,14 +4,14 @@
 export const RESUME_DATA = {
   basics: {
     name: "James H. H. Oswald",
-    label: "Support Automation & AI Specialist",
+    label: "IAM & IT Automation Specialist",
     email: "james.oswald89@gmail.com",
     phone: "",
     url: "https://www.linkedin.com/in/james-oswald-16689a263/",
-    summary: "13+ years in IT support with a focus on building AI-powered automation that enhances customer experience and drives operational efficiency. Proven track record implementing intelligent ticket routing, case deflection systems, and workflow automation using Power Automate, AI Builder, and Python/PowerShell scripting. Experienced in configuring support platforms, measuring automation ROI, and deploying self-service solutions that reduce support volume while improving customer satisfaction. Passionate about leveraging emerging AI technologies to transform support operations.",
+    summary: "13+ years in IT with deep expertise in identity and access management, user lifecycle operations, and enterprise automation. Skilled in administering Azure AD / Entra ID environments including Conditional Access, MFA, and role-based access controls. Proven track record automating AD provisioning, access workflows, and incident resolution using PowerShell, Python, and Power Automate. Experienced collaborating cross-functionally with security, HR, and operations teams to ensure secure, scalable access across mixed-platform environments. Applies automation and AI tooling to streamline IAM operations and improve service delivery.",
     location: {
-      city: "The Woodlands", 
-      region: "TX", 
+      city: "The Woodlands",
+      region: "TX",
     },
     profiles: [
       { network: "LinkedIn", url: "https://www.linkedin.com/in/james-oswald-16689a263/", username: "James Oswald" }
@@ -24,7 +24,7 @@ export const RESUME_DATA = {
       studyType: "Bachelor of Arts",
       startDate: "2009",
       endDate: "2013",
-      score: "", 
+      score: "",
       courses: ["Minor in Latin"]
     }
   ],
@@ -48,11 +48,11 @@ export const RESUME_DATA = {
       endDate: "Present",
       summary: "",
       highlights: [
-        "Built Power Automate flows integrated with AI Builder for intelligent ticket classification and document processing, enabling AI-powered triage that reduced manual sorting time significantly.",
-        "Created self-service troubleshooting portal with guided decision trees, achieving 400+ case deflections monthly (12% reduction in support volume) and improving customer experience.",
-        "Developed automation scripts and workflows in ServiceNow for intelligent ticket routing, automated incident resolution, and proactive customer outreach, improving MTTR for high-volume requests.",
-        "Authored PowerShell and Python scripts to automate Active Directory provisioning, group management, and routine support processes, eliminating 25+ hours of manual work weekly.",
-        "Configured and optimized support platform integrations across ServiceNow, M365, and Azure AD; maintained API connections for real-time automation workflows."
+        "Administered Azure AD / Entra ID environment including Conditional Access policies, multi-factor authentication, and role-based access controls, securing identities across Windows, macOS, iOS, and Android endpoints.",
+        "Automated end-to-end identity lifecycle management — onboarding, role transitions, and offboarding — with PowerShell and Python scripts integrated with Active Directory and Azure AD, eliminating 25+ hours of manual provisioning weekly.",
+        "Built automated access request and approval workflows using ServiceNow and Power Automate, streamlining role-based assignments and reducing access fulfillment time across cross-functional teams.",
+        "Led periodic access reviews and enforced least-privilege controls across M365 and Azure AD; partnered with Security and HR to align identity governance processes with compliance requirements.",
+        "Integrated AI Builder with Power Automate for intelligent document processing and ticket classification, applying automation expertise to reduce manual triage and improve operational efficiency."
       ]
     },
     {
@@ -62,39 +62,38 @@ export const RESUME_DATA = {
       endDate: "2020",
       summary: "",
       highlights: [
-        "Troubleshot and resolved TCP/IP networking issues, printer configurations, and user access permissions across wired and wireless environments.",
+        "Managed user account provisioning, access permissions, and group policies across Active Directory in a multi-site environment, supporting secure onboarding and access workflows.",
         "Standardized knowledge base documentation structure, improving technical article retrieval speed by 40% for support teams.",
         "Maintained 99.9% uptime for critical business systems through proactive monitoring, patch management, and rapid incident resolution.",
-        "Enforced security controls and access management policies, reducing compliance audit findings by 25%."
+        "Enforced security controls, access management policies, and periodic access certifications, reducing compliance audit findings by 25%."
       ]
     }
   ],
   skills: [
-    { name: "Power Automate / AI Builder", category: "Automation & AI" },
-    { name: "ServiceNow Automation & Workflows", category: "Automation & AI" },
-    { name: "Microsoft Copilot / AI Tools", category: "Automation & AI" },
-    { name: "PowerShell Scripting", category: "Automation & AI" },
-    { name: "Python Scripting", category: "Automation & AI" },
-    { name: "API Integrations & Webhooks", category: "Automation & AI" },
+    { name: "Azure AD / Entra ID (Conditional Access, MFA)", category: "Identity & Access Management" },
+    { name: "Active Directory & Group Policy", category: "Identity & Access Management" },
+    { name: "Identity Lifecycle Management (RBAC, Provisioning)", category: "Identity & Access Management" },
+    { name: "SSO & Authentication Protocols", category: "Identity & Access Management" },
 
-    { name: "Support Platforms (ServiceNow, Salesforce)", category: "Customer Support" },
-    { name: "Ticket Routing & Case Management", category: "Customer Support" },
-    { name: "Knowledge Base Systems", category: "Customer Support" },
+    { name: "PowerShell Scripting", category: "Automation & Scripting" },
+    { name: "Python Scripting", category: "Automation & Scripting" },
+    { name: "Power Automate / AI Builder", category: "Automation & Scripting" },
+    { name: "API Integrations & Webhooks", category: "Automation & Scripting" },
 
-    { name: "Microsoft 365 Administration", category: "Microsoft Technologies" },
-    { name: "Azure Active Directory (Entra ID)", category: "Microsoft Technologies" },
-    { name: "Exchange Online / Teams / SharePoint", category: "Microsoft Technologies" },
-    { name: "Intune Endpoint Management", category: "Microsoft Technologies" },
+    { name: "ServiceNow (ITSM / Workflows)", category: "Platforms & Administration" },
+    { name: "Microsoft 365 Administration", category: "Platforms & Administration" },
+    { name: "Intune / Endpoint Management", category: "Platforms & Administration" },
+    { name: "Exchange Online / Teams / SharePoint", category: "Platforms & Administration" },
 
-    { name: "Active Directory Management", category: "Infrastructure" },
-    { name: "TCP/IP / DNS / DHCP", category: "Infrastructure" },
-    { name: "Endpoint Troubleshooting (Windows, iOS, Android)", category: "Infrastructure" }
+    { name: "Multi-Platform Support (Windows, macOS, iOS, Android)", category: "Infrastructure & Support" },
+    { name: "TCP/IP / DNS / DHCP", category: "Infrastructure & Support" },
+    { name: "ITIL Service Management", category: "Infrastructure & Support" }
   ],
   projects: [
     {
-      name: "Office Management Software",
-      description: "Developed internal tooling to streamline office operations and administrative workflows. Built with a focus on improving efficiency for day-to-day business processes and reducing manual overhead.",
-      tags: ["Python", "Automation", "Business Operations"],
+      name: "Identity & Access Automation Toolkit",
+      description: "Developed internal tooling to automate identity lifecycle operations including bulk provisioning, access reviews, and role-based assignment workflows. Built with Python to reduce manual overhead in day-to-day IAM administration.",
+      tags: ["Python", "Automation", "IAM"],
       url: "#"
     },
     {
@@ -104,9 +103,9 @@ export const RESUME_DATA = {
       url: "#"
     },
     {
-      name: "Self-Service Support Portal",
-      description: "Designed and built a guided troubleshooting portal with conversational decision trees for case deflection. Achieved measurable reduction in Tier 1 ticket volume while improving customer experience through self-resolution. Also serves as an interactive training tool for onboarding support agents.",
-      tags: ["Case Deflection", "Conversation Design", "Customer Experience", "Training"],
+      name: "Self-Service Access & Support Portal",
+      description: "Designed and built a guided self-service portal with decision-tree workflows for access requests and common IT issues. Achieved measurable reduction in Tier 1 ticket volume while improving user experience through self-resolution and automated routing.",
+      tags: ["Self-Service", "Access Management", "Workflow Design", "User Experience"],
       url: "#"
     }
   ]
