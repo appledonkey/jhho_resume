@@ -104,7 +104,7 @@ export const RESUME_DATA = {
     },
     {
       name: "ServiceNow Ticket Lifecycle Automation",
-      description: "Built an end-to-end ticket automation framework integrating ServiceNow with Active Directory and Azure AD via PowerShell and Python. Automated ticket creation from monitoring alerts, intelligent routing based on category and priority, and scripted resolution of common requests such as AD provisioning, group membership changes, and password resets. Reduced manual intervention across the ticket lifecycle and improved mean time to resolution.",
+      description: "Built an end-to-end ticket automation framework integrating ServiceNow with Active Directory and Microsoft Entra ID (Azure AD) via PowerShell and Python. Automated ticket creation from monitoring alerts, intelligent routing based on category and priority, and scripted resolution of common requests such as AD provisioning, group membership changes, and password resets. Reduced manual intervention across the ticket lifecycle and improved mean time to resolution.",
       tags: ["ServiceNow", "PowerShell", "Python", "Active Directory"],
       url: "#"
     }
