@@ -61,7 +61,7 @@ export const RESUME_DATA = {
       endDate: "2020",
       summary: "",
       highlights: [
-        "Curated and maintained document archives for organizations with hundreds of employees, ensuring audit readiness and full regulatory compliance.",
+        "Curated and maintained document archives for organizations with hundreds of employees, ensuring readiness for ISO 9001 and API audits.",
         "Standardized knowledge base documentation, improving article retrieval speed by 40% for support teams.",
         "Maintained 99.9% uptime for critical systems through proactive monitoring, patching, and rapid incident resolution."
       ]
