@@ -8,7 +8,7 @@ export const RESUME_DATA = {
     email: "james.oswald89@gmail.com",
     phone: "",
     url: "https://www.linkedin.com/in/james-oswald-16689a263/",
-    summary: "13+ years in IT with a focus on automating ServiceNow workflows, Active Directory provisioning, Exchange administration, and Azure/Entra ID Graph operations using PowerShell, Python, and Power Automate. Builds end-to-end automation that eliminates manual work and accelerates service delivery across enterprise environments.",
+    summary: "13+ years in IT with a focus on automating ServiceNow workflows, Active Directory provisioning, and Azure/Entra ID administration using PowerShell, Python, Power Automate, and Microsoft Graph API. Applies AI tooling, model training, and healthcare automation platforms to eliminate manual work and accelerate service delivery across enterprise environments.",
     location: {
       city: "The Woodlands",
       region: "TX",
@@ -48,10 +48,10 @@ export const RESUME_DATA = {
       endDate: "Present",
       summary: "",
       highlights: [
-        "Automated AD provisioning, group management, and offboarding with PowerShell and Python, eliminating 25+ hours of manual work weekly.",
+        "Developed a self-service support application for end users and service desk teams, centralizing scripts, knowledge base articles, templates, and troubleshooting resources to reduce ticket escalations and accelerate resolution times.",
         "Built ServiceNow and Power Automate workflows to automate ticket routing, access requests, and approval chains across teams.",
-        "Managed Azure AD / Entra ID environment including Conditional Access, MFA, and M365 tenant administration across Windows, macOS, iOS, and Android.",
-        "Integrated AI Builder with Power Automate for intelligent document processing and automated ticket classification."
+        "Managed Azure AD / Entra ID environment including Conditional Access, MFA, BitLocker administration, and M365 tenant management across Windows, macOS, iOS, and Android.",
+        "Integrated AI Builder, Power Automate, and Notable to automate document processing, ticket classification, and healthcare-specific workflows. Trained and refined AI models using curated internal data to improve automation accuracy and reduce manual triage."
       ]
     },
     {
@@ -61,7 +61,7 @@ export const RESUME_DATA = {
       endDate: "2020",
       summary: "",
       highlights: [
-        "Automated Active Directory provisioning, group policy management, and account workflows across a multi-site environment using PowerShell.",
+        "Curated and maintained document archives for organizations with hundreds of employees, ensuring audit readiness and full regulatory compliance.",
         "Standardized knowledge base documentation, improving article retrieval speed by 40% for support teams.",
         "Maintained 99.9% uptime for critical systems through proactive monitoring, patching, and rapid incident resolution."
       ]
@@ -77,6 +77,7 @@ export const RESUME_DATA = {
     { name: "Active Directory & Group Policy", category: "Platforms & Administration" },
     { name: "Azure AD / Entra ID", category: "Platforms & Administration" },
     { name: "Exchange Online / M365 Administration", category: "Platforms & Administration" },
+    { name: "Notable (Healthcare Automation)", category: "Platforms & Administration" },
 
     { name: "Intune / Endpoint Management", category: "Infrastructure & Support" },
     { name: "Multi-Platform Support", category: "Infrastructure & Support" },
