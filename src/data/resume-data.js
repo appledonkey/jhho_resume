@@ -8,7 +8,7 @@ export const RESUME_DATA = {
     email: "james.oswald89@gmail.com",
     phone: "",
     url: "https://www.linkedin.com/in/james-oswald-16689a263/",
-    summary: "13+ years in IT with a focus on automating ServiceNow workflows, Active Directory provisioning, and Azure/Entra ID administration using PowerShell, Python, Power Automate, and Microsoft Graph API. Applies AI tooling, model training, and healthcare automation platforms to eliminate manual work and accelerate service delivery across enterprise environments.",
+    summary: "13+ years in IT building automation across ServiceNow, Active Directory, and Azure/Entra ID with PowerShell, Python, and the Power Platform. Develops self-service support tooling, AI-driven workflows, and end-to-end process automation to reduce manual effort and accelerate service delivery in healthcare enterprise environments.",
     location: {
       city: "The Woodlands",
       region: "TX",
