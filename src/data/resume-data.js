@@ -38,6 +38,11 @@ export const RESUME_DATA = {
       name: "Microsoft Certified: Power Platform Developer Associate (PL-400)",
       issuer: "Microsoft",
       date: "In Progress"
+    },
+    {
+      name: "Notable Flow Builder 101",
+      issuer: "Notable",
+      date: "Completed"
     }
   ],
   experience: [
