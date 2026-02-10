@@ -10,7 +10,7 @@ export const RESUME_DATA = {
     url: "https://www.linkedin.com/in/james-oswald-16689a263/",
     summary: "13+ years in IT building automation across ServiceNow, Active Directory, and Azure/Entra ID with PowerShell, Python, and the Power Platform. Develops self-service support tooling, AI-driven workflows, and end-to-end process automation to reduce manual effort and accelerate service delivery in healthcare enterprise environments.",
     location: {
-      city: "The Woodlands",
+      city: "Conroe",
       region: "TX",
     },
     profiles: [
@@ -56,7 +56,8 @@ export const RESUME_DATA = {
         "Developed a self-service support application for end users and service desk teams, centralizing scripts, knowledge base articles, templates, and troubleshooting resources to reduce ticket escalations and accelerate resolution times.",
         "Built ServiceNow and Power Automate workflows to automate ticket routing, access requests, and approval chains across teams.",
         "Managed Azure AD / Entra ID environment including Conditional Access, MFA, BitLocker administration, and M365 tenant management across Windows, macOS, iOS, and Android.",
-        "Integrated AI Builder, Power Automate, and Notable to automate document processing, ticket classification, and healthcare-specific workflows. Trained and refined AI models using curated internal data to improve automation accuracy and reduce manual triage."
+        "Integrated AI Builder, Power Automate, and Notable to automate document processing, ticket classification, and healthcare-specific workflows. Trained and refined AI models using curated internal data to improve automation accuracy and reduce manual triage.",
+        "Designed and implemented automation workflows with built-in audit trails, kill switches, and ROI dashboards to ensure compliance, minimize risk, and measure business impact."
       ]
     },
     {
