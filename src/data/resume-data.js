@@ -32,7 +32,7 @@ export const RESUME_DATA = {
     {
       name: "Microsoft Certified: Azure Fundamentals (AZ-900)",
       issuer: "Microsoft",
-      date: "Completed"
+      date: "In Progress"
     },
     {
       name: "Microsoft Certified: Power Platform Developer Associate (PL-400)",
