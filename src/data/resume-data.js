@@ -4,11 +4,11 @@
 export const RESUME_DATA = {
   basics: {
     name: "James H. H. Oswald",
-    label: "IT Automation Specialist | Service Desk Analyst II",
+    label: "AI & Automation Specialist",
     email: "james.oswald89@gmail.com",
-    phone: "",
+    phone: "9792361893",
     url: "https://www.linkedin.com/in/james-oswald-16689a263/",
-    summary: "13+ years in IT building automation across ServiceNow, Active Directory, and Azure/Entra ID with PowerShell, Python, and the Power Platform. Develops self-service support tooling, AI-driven workflows, and end-to-end process automation to reduce manual effort and accelerate service delivery in healthcare enterprise environments.",
+    summary: "13+ years driving enterprise IT automation across ServiceNow, Azure/Entra ID, and the Power Platform. Deep expertise in agentic AI workflows, LLM integration, voice AI, and MCP/API orchestration, grounded in real service desk operations and self-service tooling. Delivered measurable results automating 400+ tickets/week and achieving 30% call deflection via AI voice support.",
     location: {
       city: "Conroe",
       region: "TX",
@@ -30,14 +30,14 @@ export const RESUME_DATA = {
   ],
   certifications: [
     {
-      name: "Microsoft Certified: Azure Fundamentals (AZ-900)",
+      name: "Microsoft Azure AI Fundamentals",
       issuer: "Microsoft",
-      date: "In Progress"
+      date: "Completed"
     },
     {
-      name: "Microsoft Certified: Power Platform Developer Associate (PL-400)",
-      issuer: "Microsoft",
-      date: "In Progress"
+      name: "Google AI Essentials",
+      issuer: "Google",
+      date: "Completed"
     },
     {
       name: "Notable Flow Builder 101",
@@ -47,22 +47,37 @@ export const RESUME_DATA = {
   ],
   experience: [
     {
-      company: "McKesson / US Oncology",
-      position: "IT Support Analyst",
-      startDate: "2020-01",
+      company: "HungerRush",
+      position: "AI & Automation Specialist",
+      location: "Houston, TX",
+      startDate: "2026-03",
       endDate: "Present",
       summary: "",
       highlights: [
-        "Developed a self-service support application for end users and service desk teams, centralizing scripts, knowledge base articles, templates, and troubleshooting resources to reduce ticket escalations and accelerate resolution times.",
-        "Built ServiceNow and Power Automate workflows to automate ticket routing, access requests, and approval chains across teams.",
-        "Managed Azure AD / Entra ID environment including Conditional Access, MFA, BitLocker administration, and M365 tenant management across Windows, macOS, iOS, and Android.",
-        "Integrated AI Builder, Power Automate, and Notable to automate document processing, ticket classification, and healthcare-specific workflows. Trained and refined AI models using curated internal data to improve automation accuracy and reduce manual triage.",
-        "Designed and implemented automation workflows with built-in audit trails, kill switches, and ROI dashboards to ensure compliance, minimize risk, and measure business impact."
+        "Orchestrated launch of forethought.ai voice support, facilitating over 30% call deflection and operational readiness in less than 2 months.",
+        "Engineered coaching scorecards for management teams, reducing meeting preparation time by 95% and driving structured employee development through data-driven 1:1s.",
+        "Constructed an integrated data hub unifying Zendesk, Assembled, and Forethought, enabling real-time reporting and metric tracking via Azure, with Entrada securing remote data access.",
+        "Established company GitHub and document control processes, standardizing knowledge transfer and reducing onboarding friction."
+      ]
+    },
+    {
+      company: "McKesson / US Oncology",
+      position: "IT Support Analyst",
+      location: "Conroe, TX",
+      startDate: "2020-01",
+      endDate: "2026-03",
+      summary: "",
+      highlights: [
+        "Built ServiceNow and Power Automate workflows automating ticket routing, access requests, and approval chains, scaling support capacity to 400+ tickets per week.",
+        "Managed Azure AD / Entra ID environment including Conditional Access, MFA, BitLocker, and M365 across Windows, macOS, iOS, and Android.",
+        "Designed automation workflows with built-in audit trails, kill switches, and ROI dashboards to ensure compliance and measure business impact.",
+        "Developed a self-service support application for end users and service desk teams, centralizing scripts, knowledge base articles, templates, and troubleshooting resources to reduce ticket escalations and accelerate resolution times."
       ]
     },
     {
       company: "QSI",
       position: "IT Support Analyst",
+      location: "",
       startDate: "2013",
       endDate: "2020",
       summary: "",
@@ -74,20 +89,17 @@ export const RESUME_DATA = {
     }
   ],
   skills: [
-    { name: "PowerShell", category: "Automation & Scripting" },
-    { name: "Python", category: "Automation & Scripting" },
-    { name: "Power Automate / AI Builder", category: "Automation & Scripting" },
-    { name: "API Integrations (Graph API, REST, Webhooks)", category: "Automation & Scripting" },
+    { name: "LLM Integration & Prompt Engineering", category: "AI & Automation" },
+    { name: "Agentic AI Workflows", category: "AI & Automation" },
+    { name: "Voice AI (IVR Automation, Call Deflection)", category: "AI & Automation" },
+    { name: "Power Automate / AI Builder", category: "AI & Automation" },
 
-    { name: "ServiceNow", category: "Platforms & Administration" },
-    { name: "Active Directory & Group Policy", category: "Platforms & Administration" },
+    { name: "ServiceNow / Zendesk / Forethought.AI", category: "Platforms & Administration" },
     { name: "Azure AD / Entra ID", category: "Platforms & Administration" },
-    { name: "Exchange Online / M365 Administration", category: "Platforms & Administration" },
-    { name: "Notable (Healthcare Automation)", category: "Platforms & Administration" },
+    { name: "PowerShell / Python", category: "Platforms & Administration" },
+    { name: "REST / Graph API / Webhooks", category: "Platforms & Administration" },
 
     { name: "Intune / Endpoint Management", category: "Infrastructure & Support" },
-    { name: "Multi-Platform Support", category: "Infrastructure & Support" },
-    { name: "TCP/IP / DNS / DHCP", category: "Infrastructure & Support" },
     { name: "ITIL Service Management", category: "Infrastructure & Support" }
   ],
   projects: [
